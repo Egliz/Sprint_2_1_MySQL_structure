@@ -1,0 +1,8 @@
+services:
+  mysql:
+    image: mysql:8.0
+    container_name: mysql-ejercicios
+    environment:
+      MYSQL_ROOT_PASSWORD: mysqldocker
+    ports:
+      - "3307:3306"
